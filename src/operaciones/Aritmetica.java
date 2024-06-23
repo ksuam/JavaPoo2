@@ -13,6 +13,18 @@ public class Aritmetica {
     int a;
     int b;
     
+    //Constructor vacio
+    public Aritmetica(){
+        System.out.println("Ejecutando constructor vacio");
+    }
+    
+    public Aritmetica(int a, int b){
+        this.a = a;
+        this.b = b;
+        
+        System.out.println("Ejecutando contructor con arg");
+    }
+    
     //METODOS
     public void sumar(){
         int resultado = a+b;
@@ -25,5 +37,12 @@ public class Aritmetica {
         
         */
         return a+b;
+    }
+    
+    public int sumarConArgumentos(int arg1, int arg2){
+        a =arg1;
+        b = arg2;
+        
+        return a +b;
     }
 }
