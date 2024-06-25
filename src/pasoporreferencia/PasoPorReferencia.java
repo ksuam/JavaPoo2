@@ -4,7 +4,7 @@
  */
 package pasoporreferencia;
 
-import clases.Persona;
+import dominio.Persona;
 
 /**
  *
