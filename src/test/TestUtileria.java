@@ -5,5 +5,8 @@ import mx.com.globalmentoring.Utileria;
 
 
 public class TestUtileria {
-    //hola
+    public static void main(String[] args) {
+        Utileria.imprimir("Saludos");
+    }
+    
 }

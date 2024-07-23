@@ -11,6 +11,6 @@ public class PersonaPrueba {
         System.out.println("persona1 = " + persona1.getNombre());
         System.out.println("persona1 eliminado = " + persona1.isEliminado());
 
-        System.out.println("persona1 objeto= " + persona1.toStrin());
+        System.out.println("persona1 objeto= " + persona1.toString());
     }
 }
