@@ -50,4 +50,11 @@ public class Computadora {
     public void setTeclado (Teclado teclado){
         this.teclado = teclado;
     }
+
+    @Override
+    public String toString() {
+        return "Computadora{" + "nombre=" + nombre + ", monitor=" + monitor + ", teclado=" + teclado + ", raton=" + raton + '}';
+    }
+    
+    
 }
